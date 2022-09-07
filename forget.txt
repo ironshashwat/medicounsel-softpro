@@ -1,0 +1,4 @@
+forget.php
+
+email -> $email
+db($mobile,$password)

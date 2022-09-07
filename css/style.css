@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	color:#ffffff;
+}
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+	   font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+	background:url('../images/bg4.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+}
+	 .navbar
+	 {
+		/* background-color:rgba(0,131,143,0.8); */
+		background:#00838f;
+		min-height:50px;
+		transition:top 0.3s;
+		/* opacity:0.8;*/
+		
+	 }
+	
+	 .nav-item
+	 {
+		margin:5px;
+		padding-left:10px;
+		padding-right:10px;
+		/* border:1px solid #007bff; */
+	 }
+	  a
+	 {
+		 /* color:#ff3300; */
+		 color:#ffffff;
+		 font-weight:600;
+	 }
+	 .nav-item:hover
+	 {
+		transform:scale(1.2); 
+		color:#ffffff;
+	 }
+	 .nav-item a:hover
+	 {
+		 color:#fff;
+	 }
+
+
+.footer
+{
+	min-height:180px;
+	/* background:#007bff; */
+	/* background-color:rgba(0,123,255,0.7); */
+	background-color:rgba(0,131,143,0.8);
+	margin-bottom:0px;
+}
+
+#slider
+{
+min-height:400px;
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+.facility
+{
+min-height:200px;	
+}
+.carousel-inner img
+ {
+    width: 100%;
+    height: 100%;
+}
+.slidetxt
+{
+	position:relative;
+	top:-450px;
+	z-index:4;
+	
+}
+.sliderr
+{
+	position:relative;
+	z-index:2;
+}
+.ourfacility
+{
+	margin-top:-12%;
+}
+.log
+{
+	width:100%;
+}
+.loginbox
+{
+	background:url('../images/3.png');
+}
+.btntoggle
+{
+	color:#000;
+	background:#fff;
+	
+}
+.joom:hover
+{
+	transform:scale(1.1);
+}
+.about
+{
+	margin-top:-26%;
+	width:100%;
+}
+.story
+{
+	margin-top:-5%;
+}
+#input-border
+{
+	border:0;
+	background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+    
+  /* //social media   */
+  
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.regbox
+{
+height:80%;
+width:80%;
+border:1px solid;
+border-radius:9px;
+}
+.lregbox
+{
+height:100%;
+width:30%;
+/* background:#6cafdf; */
+float:left;
+}
+.rregbox
+{
+height:100%;
+width:70%;
+float:left;
+}
+.boxreg
+{
+ height:40px;
+ width:80%;
+ margin:4%;
+ font-size:30px
+ display:inline-block;
+ border-radius:5px;
+ box-shadow:0 0 10px #0078d7;
+}
+.regin
+{
+width:100%;
+}
+#iml
+{
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	background:url('../images/4.png');
+	margin:0px auto;
+	margin-top:40%;
+}
+.specialities
+{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	//border:1px solid red;
+	display:inline-block;
+	float:left;
+}
+.about
+	{
+	min-height:100px;
+	width:100%;
+	/* background:#00897b; */
+	margin-top:-30%;
+	background:rgb(153, 102, 204);
+
+	/* background:rgba(0,131,143,0.9); */
+	}
+	#labout
+	{
+	height:300px;
+	width:100%;
+	float:left;
+	/* border-right:1px solid red; */
+	}
+	#rabout
+	{
+	height:300px;
+	width:100%;
+	float:right;
+	background:background:#00838f;
+	margin-top:3%;
+	/* border:1px solid; */
+	}
+	.specc
+	{
+		height:140px;
+		width:140px;
+		border-radius:50%;
+		background:#1976d2;
+		float:left;
+		display:inline-block;
+		margin-left:8%;
+		margin-top:5%;
+		margin-bottom:4%;
+		
+	}
+	/* media query*/
+	/* @media (width:800px) */
+	/* { */
+		/* .about{ */
+			/* margin-top:-50%; */
+		/* } */
+	/* } */
+	/* @media (width:600px) */
+	/* { */
+			/* .about{ */
+			/* margin-top:-65%; */
+		/* } */
+	/* } */
+	/* @media (width:400px) */
+	/* { */
+		/* .about{ */
+			/* margin-top:-70%; */
+		/* } */
+	/* } */
+	/* @media (width:300px) */
+	/* { */
+			/* .about{ */
+			/* margin-top:-200px; */
+		/* } */
+	/* } */
+	/* media query end*/
+	.specc:hover
+	{
+		opacity:0.5;
+	}
+	.faccard
+	{
+		height:250px;
+	}
+.owl-item img { 
+     width: 100%; 
+     height: auto; 
+	 } 
+	.owl-prev, .owl-next { 
+    position: absolute; 
+     top: 50%; 
+     margin-top: -50px;
+     width: 50px; 
+     height: 50px; 
+     text-align: center; 
+    background-color: #fff; 
+	
+	} 
+	.owl-prev:hover, .owl-next:hover { 
+    opacity: 1.2;
+	} 
+	.owl-next 
+	{ 
+	 right: 0px; 
+	} 
+	.owl-prev
+	{ 
+	left:0; 
+	}
+	.owl-controls { 
+     text-align: center;
+	 }
+	.owl-controls .owl-page { 
+     display: inline-block; 
+	 } 
+	.owl-controls .owl-page span { 
+     background-color: #333; 
+     -webkit-border-radius: 30px; 
+     -moz-border-radius: 30px; 
+      border-radius: 30px;
+      display: block;
+      height: 12px; 
+      margin: 5px 7px; 
+      width: 12px; 
+     opacity: 0.5;
+	 } 
+	.owl-controls .owl-page.active span, .owl-controls .owl-page:hover span { 
+    opacity: 1;
+	} 
+	.detail
+	{
+		min-height:400px;
+		background:#fff;
+		margin:0px auto;
+	}
